@@ -1,5 +1,11 @@
-INSERT INTO burgers (burgers) VALUES ('sliders', TRUE);
-INSERT INTO burgers (burgers) VALUES ('bacon-burger', TRUE);
-INSERT INTO burgers (burgers) VALUES ('kimchi-burger', TRUE);
-INSERT INTO burgers (burgers) VALUES ('jalapeno-burger', TRUE);
-
+USE burgers_db;
+INSERT INTO burgers (burger_name, devoured) VALUES ('sliders', TRUE);
+INSERT INTO burgers (burgers_name, devoured) VALUES ('bacon-burger', TRUE);
+INSERT INTO burgers (burgers_name, devoured) VALUES ('kimchi-burger', TRUE);
+INSERT INTO burgers (burgers_name, devoured) VALUES ('jalapeno-burger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Triple-Stacked Avocado Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cali-Chicken Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Southern Style Veggie Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Spicy Pepper Jack Mushroom Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Tequila Lime Burger', true);
